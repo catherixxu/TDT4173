@@ -2,7 +2,7 @@
 CNN:
 
 To load the CIFAR-10 data set:
-- Change «data_dir» to your location of CIFAR-10
+- Change «cifar_10_dir» to your location of CIFAR-10
 
 To load the full data set:
 - Use range(1,6) in line 23
