@@ -1,5 +1,5 @@
 # Project - Object classification with the full and alimited version of the CIFAR-10 data set
-##CNN:
+CNN:
 
 To load the CIFAR-10 data set:
 - Change «data_dir» to your location of CIFAR-10
