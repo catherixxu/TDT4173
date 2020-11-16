@@ -1,4 +1,4 @@
-# Project - Object classification with the full and a limited version of the CIFAR-10 data set
+# Object classification with the full and a limited version of the CIFAR-10 data set
 CNN:
 
 To load the CIFAR-10 data set:
