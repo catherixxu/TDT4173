@@ -11,9 +11,9 @@ This repository contains the source code for the two methods implemented in the 
 
 ## Content of repository
 This repository contains three files:
-- README.md
-- >DeepNetFinal.py: Code for the implemented Convolutional Neural Network, including load files, build model, model training and evaluation
-- /.kNN.py: Code for the implemented k-Nearest Neighbor classifier, including load files, grid search, PCA, model building and evaluation
+- **README.md**
+- **DeepNetFinal.py**: Code for the implemented Convolutional Neural Network, including load files, build model, model training and evaluation
+- **kNN.py**: Code for the implemented k-Nearest Neighbor classifier, including load files, grid search, PCA, model building and evaluation
 
 
 ## Convolutional Neural Network CNN
