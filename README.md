@@ -1,9 +1,9 @@
 # Object classification with the full and a limited version of the CIFAR-10 data set
 
 ## Table of contents
-* [General Info](#General-info)
+* [General Info](#general-info)
 * [Convolutional Neural Network](#convolutional-neural-network-(CNN))
-* [k-Nearest Neighbor](#k-Nearest-Neighbor-(KNN))
+* [k-Nearest Neighbor](#k-nearest-Neighbor-(KNN))
 
 ## General info:
 This repository contains the source code for the two methods implemented in the project by group 7 in TDT4173. The two methods are a Convolutional Neural Network and a k-Nearest Neighbor classifier. This project aims to investigate how sensitive these two methods are to the amount of training data. In order to compare the performance of the methods with varying amount of data, necessary alterations to co. The data set used, CIFAR-10 python version, can be downloaded from [here](https://www.cs.toronto.edu/~kriz/cifar.html). If the user does not have eny programming environments or python downloaded, procees with downloading [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/). The files can be run in Spyder or similar IDE.
@@ -31,7 +31,7 @@ To run CNN with data augmentation:
 - Comment out ‘’history = model_cnn.fit()’’ on line 160
 - Run ‘’history = model_cnn.fit_generator()’’ on line 165 instead
 
-## k-Nearest Neighbor (KNN):
+## k Nearest Neighbor (KNN):
 Run the convolutional neural network by using [kNN.py](/kNN.py)
 
 To load the CIFAR-10 data set:
