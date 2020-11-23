@@ -6,10 +6,11 @@
 * [k-Nearest Neighbor](#kNN)
 
 ## General Info:
-This 
+This repository contains the code for the two methods implemented in the project of object classification with the full and a limited version of the CIFAR-10 data set. The two methods are a Convolutional Neural Network and a k-Nearest Neighbor classifier. This project aims to investigate how sensitive these two methods are to the amount of training data. In order to compare the performance of the methods with varying amount of data, some alteration to the code needs to be made, as descirbed below.
 
 
 ## CNN:
+Run the convolutional neural network by using [DeepNetFinal.py](src/DeepNetFinal.py)
 
 To load the CIFAR-10 data set:
 - Change «cifar_10_dir» to your location of CIFAR-10
@@ -25,6 +26,7 @@ To run CNN with data augmentation:
 - Run ‘’history = model_cnn.fit_generator()’’ on line 165 instead
 
 ## KNN:
+Run the convolutional neural network by using [kNN.py](src/kNN.py)
 
 To load the CIFAR-10 data set:
 - Change «cifar_10_dir» to your location of CIFAR-10
