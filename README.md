@@ -13,7 +13,7 @@ This repository contains three files:
 - kNN: Code for the implemented k-Nearest Neighbor
 
 
-## CNN:
+## Convolutional Neural Network (CNN):
 Run the convolutional neural network by using [DeepNetFinal.py](/DeepNetFinal.py)
 
 To load the CIFAR-10 data set:
@@ -29,7 +29,7 @@ To run CNN with data augmentation:
 - Comment out ‘’history = model_cnn.fit()’’ on line 160
 - Run ‘’history = model_cnn.fit_generator()’’ on line 165 instead
 
-## KNN:
+## k-Nearest Neighbor (KNN):
 Run the convolutional neural network by using [kNN.py](/kNN.py)
 
 To load the CIFAR-10 data set:
