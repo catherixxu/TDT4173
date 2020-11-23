@@ -1,16 +1,20 @@
 # Object classification with the full and a limited version of the CIFAR-10 data set
 
 ## Table of contents
-* [General Info](#General Info)
+* [General Info](#GeneralInfo)
 * [Convolutional Neural Network](#CNN)
 * [k-Nearest Neighbor](#kNN)
 
 ## General Info:
-This repository contains the code for the two methods implemented in the project of object classification with the full and a limited version of the CIFAR-10 data set. The two methods are a Convolutional Neural Network and a k-Nearest Neighbor classifier. This project aims to investigate how sensitive these two methods are to the amount of training data. In order to compare the performance of the methods with varying amount of data, some alteration to the code needs to be made, as descirbed below.
+This repository contains the code for the two methods implemented in the project of object classification with the full and a limited version of the CIFAR-10 data set. The two methods are a Convolutional Neural Network and a k-Nearest Neighbor classifier. This project aims to investigate how sensitive these two methods are to the amount of training data. In order to compare the performance of the methods with varying amount of data, some alteration to the code needs to be made, as descirbed below. This repository contains four files:
+- README.md
+- CNN: Code for the implemented Convolutional Neural Network
+- kNN: Code for the implemented k-Nearest Neighbor
+- Data: The data set CIFAR-10, which contains folders with all batches of data
 
 
 ## CNN:
-Run the convolutional neural network by using [DeepNetFinal.py](src/DeepNetFinal.py)
+Run the convolutional neural network by using [DeepNetFinal.py](blob/main/DeepNetFinal.py)
 
 To load the CIFAR-10 data set:
 - Change «cifar_10_dir» to your location of CIFAR-10
@@ -26,7 +30,7 @@ To run CNN with data augmentation:
 - Run ‘’history = model_cnn.fit_generator()’’ on line 165 instead
 
 ## KNN:
-Run the convolutional neural network by using [kNN.py](src/kNN.py)
+Run the convolutional neural network by using [kNN.py](blob/main/kNN.py)
 
 To load the CIFAR-10 data set:
 - Change «cifar_10_dir» to your location of CIFAR-10
