@@ -1,7 +1,15 @@
 # Object classification with the full and a limited version of the CIFAR-10 data set
 
-./DeepNetFinal
-CNN:
+## Table of contents
+* [General Info](#General Info)
+* [Convolutional Neural Network](#CNN)
+* [k-Nearest Neighbor](#kNN)
+
+## General Info:
+This 
+
+
+## CNN:
 
 To load the CIFAR-10 data set:
 - Change «cifar_10_dir» to your location of CIFAR-10
@@ -16,7 +24,7 @@ To run CNN with data augmentation:
 - Comment out ‘’history = model_cnn.fit()’’ on line 160
 - Run ‘’history = model_cnn.fit_generator()’’ on line 165 instead
 
-KNN:
+## KNN:
 
 To load the CIFAR-10 data set:
 - Change «cifar_10_dir» to your location of CIFAR-10
