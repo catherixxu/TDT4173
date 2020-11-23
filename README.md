@@ -1,4 +1,6 @@
 # Object classification with the full and a limited version of the CIFAR-10 data set
+
+./DeepNetFinal
 CNN:
 
 To load the CIFAR-10 data set:
