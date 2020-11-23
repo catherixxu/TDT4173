@@ -14,7 +14,7 @@ This repository contains the code for the two methods implemented in the project
 
 
 ## CNN:
-Run the convolutional neural network by using [DeepNetFinal.py](blob/main/DeepNetFinal.py)
+Run the convolutional neural network by using [DeepNetFinal.py](/DeepNetFinal.py)
 
 To load the CIFAR-10 data set:
 - Change «cifar_10_dir» to your location of CIFAR-10
@@ -30,7 +30,7 @@ To run CNN with data augmentation:
 - Run ‘’history = model_cnn.fit_generator()’’ on line 165 instead
 
 ## KNN:
-Run the convolutional neural network by using [kNN.py](blob/main/kNN.py)
+Run the convolutional neural network by using [kNN.py](/kNN.py)
 
 To load the CIFAR-10 data set:
 - Change «cifar_10_dir» to your location of CIFAR-10
